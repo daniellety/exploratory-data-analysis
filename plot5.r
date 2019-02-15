@@ -12,6 +12,8 @@ if(!exists("SCC")){
   SCC <- readRDS("./data/Source_Classification_Code.rds")
 }
 
+library(ggplot2)
+
 # How have emissions from motor vehicle sources changed from 1999-2008 in Baltimore City?
 
 # 24510 is Baltimore, see plot2.R
